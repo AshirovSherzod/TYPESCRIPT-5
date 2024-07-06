@@ -1,0 +1,19 @@
+.footer {
+    background-color: #0f0f0f;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0px;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__images {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+}
